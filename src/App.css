@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+#quote-box {
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 40px 50px;
+    /* margin: auto; */
+    /* display: table; */
+    background-color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote {
+  overflow: hidden;
+  font-family: Raleway,sans-serif;
 }
+#quote-text {
+  font-size: 28px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#quote-author {
+  float: right;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.buttons {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 25px;
+  /* background-color: orange; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tweet-quote,
+#new-quote {
+  height: 40px;
+  /* width: 50px; */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+}
+#new-quote {
+  float: right;
 }
